@@ -71,9 +71,9 @@ Example schema:
 
 ![{1B1ED6DF-7D6E-43E8-8E91-0FDE06A4CD6D}](https://github.com/user-attachments/assets/c3211d78-53b4-4d8d-8415-d32553ccdc6d)
 
--Most attrition is happening in R&D, followed by Sales.
+- Most attrition is happening in R&D, followed by Sales.
 
--Human Resources has the least attrition.
+- Human Resources has the least attrition.
 
 - This may indicate role-based dissatisfaction, leadership issues, or a misalignment between job expectations and daily tasks in R&D and Sales.
 
@@ -81,11 +81,11 @@ Example schema:
 
 ![{DD27EEBD-7BA0-47F9-B13C-3CD3B8047A08}](https://github.com/user-attachments/assets/19ee93f4-d1a2-49d1-8e34-e5c19ef78ce2)
 
--Employees who seem satisfied (rated 'Good') may still be at risk, indicating a need for deeper qualitative feedback.
+- Employees who seem satisfied (rated 'Good') may still be at risk, indicating a need for deeper qualitative feedback.
 
--Focus on converting “Good” to “Excellent” by providing better career development, rewards, and work-life balance.
+- Focus on converting “Good” to “Excellent” by providing better career development, rewards, and work-life balance.
 
--"Neutral” employees are a critical segment to target for engagement initiatives—they're the easiest to retain or lose.
+- "Neutral” employees are a critical segment to target for engagement initiatives—they're the easiest to retain or lose.
 
 **Correlation matrix of the dataset**
 
@@ -105,11 +105,11 @@ Example schema:
 
 ![{0EBF0E6D-4455-4AC2-B6FC-078556957AD6}](https://github.com/user-attachments/assets/87c15761-ffbb-4acb-b86a-c5c13a23e0a6)
 
--**Z-statistic**
+- **Z-statistic**
 
--The Z-statistic is -7.4826, indicating how many standard deviations the difference between the means of the two groups is away from zero.
+- The Z-statistic is -7.4826, indicating how many standard deviations the difference between the means of the two groups is away from zero.
 
--A negative value suggests that the Monthly Income of Former Employees is significantly lower than that of Current Employees.
+- A negative value suggests that the Monthly Income of Former Employees is significantly lower than that of Current Employees.
 
 - **P-value**
 
@@ -129,6 +129,7 @@ Example schema:
 - Attrition and PerformanceRating are independent (p-value = 0.99).
 
 - Attrition and RelationshipSatisfaction are independent (p-value = 0.15).
+- 
 
 **Attrition based on Random forest modelling**
 
@@ -169,18 +170,19 @@ Example schema:
 
 - Salary inequities across genders and roles emerged as a potential area for HR intervention. A Z-test on Monthly Income confirmed a statistically significant difference between former and current employees.
 
--Strong correlations were observed between MonthlyIncome and TotalWorkingYears, reinforcing the influence of experience on compensation—and potentially on attrition.
+- Strong correlations were observed between MonthlyIncome and TotalWorkingYears, reinforcing the influence of experience on compensation—and potentially on attrition.
 
 - Predictive modeling using Random Forest identified key factors impacting attrition, including:
 
--Monthly Income
--Age
--Years at Company
--Overtime
--Stock Options
--Job Satisfaction
--Departmental Affiliation
---The model performed robustly across both validation and test sets, achieving high accuracy and AUC, supporting its use as an early-warning tool for HR professionals.
+- Monthly Income
+- Age
+- Years at Company
+- Overtime
+- Stock Options
+- Job Satisfaction
+- Departmental Affiliation
+  
+- The model performed robustly across both validation and test sets, achieving high accuracy and AUC, supporting its use as an early-warning tool for HR professionals.
 
 ---
 
@@ -188,11 +190,11 @@ Example schema:
 
 - **Tailored Retention Strategies**
 
--Develop targeted retention programs based on the identified factors influencing attrition, such as work-life balance, job satisfaction, and overtime. Customize initiatives for different departments to address specific concerns.
+- Develop targeted retention programs based on the identified factors influencing attrition, such as work-life balance, job satisfaction, and overtime. Customize initiatives for different departments to address specific concerns.
 
 - **Employee Engagement Initiatives**
 
-  -Implement initiatives to boost overall jobsatisfaction, considering the positive correlation between satisfaction and retention. Regular feedback mechanisms, recognition programs, and professional development
+  - Implement initiatives to boost overall jobsatisfaction, considering the positive correlation between satisfaction and retention. Regular feedback mechanisms, recognition programs, and professional development
 opportunities can contribute to a more engaged workforce.
 
 - **Flexible Work Arrangements**
@@ -201,10 +203,10 @@ opportunities can contribute to a more engaged workforce.
   
 - ** Overtime Management**
   
-   -Address concerns related to working overtime, as indicated by its significance in predicting attrition. Evaluate workload distribution, assess resource allocation, and consider measures to manage and minimize overtime demands.
+   - Address concerns related to working overtime, as indicated by its significance in predicting attrition. Evaluate workload distribution, assess resource allocation, and consider measures to manage and minimize overtime demands.
   
 - **Competitive Compensation**
 
-  -Given the importance of monthly income in predicting attrition, ensure that the company's salary structure remains competitive within the industry. Regularly review and adjust compensation packages to reflect market trends.
+  - Given the importance of monthly income in predicting attrition, ensure that the company's salary structure remains competitive within the industry. Regularly review and adjust compensation packages to reflect market trends.
 
 
