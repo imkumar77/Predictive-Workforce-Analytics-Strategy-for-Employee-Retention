@@ -101,7 +101,7 @@ Example schema:
 
 ## Hypothesis Testing
 
-** Z-Test**
+**Z-Test**
 
 ![{0EBF0E6D-4455-4AC2-B6FC-078556957AD6}](https://github.com/user-attachments/assets/87c15761-ffbb-4acb-b86a-c5c13a23e0a6)
 
@@ -201,7 +201,7 @@ opportunities can contribute to a more engaged workforce.
 
 - Recognize the impact of work-life balance on attrition. Explore flexible work arrangements, remote work options, or compressed workweeks to accommodate diverse employee needs and promote a healthier worklife balance.
   
-- ** Overtime Management**
+- **Overtime Management**
   
    - Address concerns related to working overtime, as indicated by its significance in predicting attrition. Evaluate workload distribution, assess resource allocation, and consider measures to manage and minimize overtime demands.
   
