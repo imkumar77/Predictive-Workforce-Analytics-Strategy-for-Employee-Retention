@@ -207,4 +207,6 @@ opportunities can contribute to a more engaged workforce.
 
   - Given the importance of monthly income in predicting attrition, ensure that the company's salary structure remains competitive within the industry. Regularly review and adjust compensation packages to reflect market trends.
 
+## License
 
+This project is licensed under the MIT License.
