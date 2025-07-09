@@ -1,18 +1,16 @@
-# Predictive-Workforce-Analytics-Strategy-for-Employee-Retention
-Novotel implements predictive analytics to enhance employee retention. By analyzing data and developing personalized interventions, they create a stable workforce, ultimately boosting customer satisfaction and business success.
-# 🧠 Predictive Workforce Analytics for Employee Retention - Novotel Case Study
+# Predictive Workforce Analytics for Employee Retention - Novotel Case Study
 
 This project is based on my MBA thesis and focuses on the use of predictive analytics to understand and improve employee retention at Novotel, a global leader in the hospitality industry. Using data-driven insights and machine learning models, we identify patterns of attrition and recommend personalized interventions.
 
 ---
 
-## ✅ Project Overview
+## Project Overview
 
 High employee turnover is a major challenge in the hospitality industry. This project leverages historical employee data and predictive modeling to forecast attrition and suggest retention strategies. The analysis is based on data from Novotel and covers demographics, job roles, satisfaction, compensation, and more.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Analyze factors contributing to employee turnover.
 - Use machine learning models to predict attrition risk.
@@ -22,7 +20,7 @@ High employee turnover is a major challenge in the hospitality industry. This pr
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Languages**: Python
 - **Libraries**: pandas, seaborn, matplotlib, scikit-learn, streamlit
@@ -30,9 +28,9 @@ High employee turnover is a major challenge in the hospitality industry. This pr
 - **Statistical Tools**: Z-Test, Chi-Square Test
 - **Platforms**: Jupyter Notebook, Streamlit
 
----
 
-## 📂 Dataset Summary
+
+## Dataset Summary
 
 A sample anonymized dataset includes:
 - **Demographics**: Age, Gender
@@ -47,7 +45,7 @@ Example schema:
 | 101        | 35  | Sales      | Male   | 45000          | 3                | 5              | No        |
 | 102        | 29  | HR         | Female | 38000          | 2                | 2              | Yes       |
 
----
+
 ## DATA ANALYSIS AND INTERPRETATION
 
 **Description of the dataset**
@@ -129,7 +127,7 @@ Example schema:
 - Attrition and PerformanceRating are independent (p-value = 0.99).
 
 - Attrition and RelationshipSatisfaction are independent (p-value = 0.15).
-- 
+  
 
 **Attrition based on Random forest modelling**
 
@@ -143,14 +141,14 @@ Example schema:
 
 ##  Key Findings
 
-- 📌 **16%** attrition rate overall.
-- 💼 **Overtime**, **Monthly Income**, and **Job Satisfaction** are strong predictors.
-- 🔍 Women in HR and men in Sales show higher attrition risk.
-- 🔥 Random Forest model achieved:
+- **16%** attrition rate overall.
+- **Overtime**, **Monthly Income**, and **Job Satisfaction** are strong predictors.
+- Women in HR and men in Sales show higher attrition risk.
+- Random Forest model achieved:
   - **Validation Accuracy**: 83.6%
   - **Test Accuracy**: 84.2%
   - **AUC**: 0.816
-- 🎯 Actionable features:
+- Actionable features:
   - Monthly income
   - Total years of work
   - Distance from home
@@ -158,7 +156,7 @@ Example schema:
 
 ---
 
- ##   CONCLUSION
+ ## CONCLUSION
  
 - This study presents a comprehensive examination of employee attrition within the organization, revealing several critical insights and patterns:
 
@@ -186,7 +184,7 @@ Example schema:
 
 ---
 
-##  SUGGESTIONS
+## SUGGESTIONS
 
 - **Tailored Retention Strategies**
 
